@@ -1,0 +1,43 @@
+{
+  "name": "ngx-mobile-keyboard-watcher",
+  "version": "0.9.1",
+  "description": "Address autocomplete directive for Angular.io (2+).",
+  "main": "bundles/ngx-mobile-keyboard-watcher.umd.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leopq/ngx-mobile-keyboard-watcher.git"
+  },
+  "keywords": [
+    "angular",
+    "directive",
+    "ngx"
+  ],
+  "author": "Leonardo Quevedo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leopq/ngx-mobile-keyboard-watcher/issues"
+  },
+  "homepage": "https://github.com/leopq/ngx-mobile-keyboard-watcher#readme",
+  "dependencies": {
+    "@angular/common": "^7.1.3",
+    "@angular/core": "^7.1.3",
+    "@angular/forms": "^7.1.3",
+    "tslib": "^1.9.0"
+  },
+  "devDependencies": {
+    "@angular/compiler": "^7.1.3",
+    "@angular/compiler-cli": "^7.1.3",
+    "ng-packagr": "^4.4.5",
+    "tsickle": "^0.34.0",
+    "typescript": "3.1.1"
+  },
+  "module": "fesm5/ngx-mobile-keyboard-watcher.js",
+  "es2015": "fesm2015/ngx-mobile-keyboard-watcher.js",
+  "esm5": "esm5/ngx-mobile-keyboard-watcher.js",
+  "esm2015": "esm2015/ngx-mobile-keyboard-watcher.js",
+  "fesm5": "fesm5/ngx-mobile-keyboard-watcher.js",
+  "fesm2015": "fesm2015/ngx-mobile-keyboard-watcher.js",
+  "typings": "ngx-mobile-keyboard-watcher.d.ts",
+  "metadata": "ngx-mobile-keyboard-watcher.metadata.json",
+  "sideEffects": false
+}

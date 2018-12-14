@@ -1,0 +1,10 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+/**
+ * Generated bundle index. Do not edit.
+ */
+export { NgxMobileKeyboardWatcherModule } from './public_api';
+export { NgxMobileKeyboardWatcher as ɵa } from './mobile-keyboard-watcher';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmd4LW1vYmlsZS1rZXlib2FyZC13YXRjaGVyLmpzIiwic291cmNlUm9vdCI6Im5nOi8vbmd4LW1vYmlsZS1rZXlib2FyZC13YXRjaGVyLyIsInNvdXJjZXMiOlsibmd4LW1vYmlsZS1rZXlib2FyZC13YXRjaGVyLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFJQSwrQ0FBYyxjQUFjLENBQUM7QUFFN0IsT0FBTyxFQUFDLHdCQUF3QixJQUFJLEVBQUUsRUFBQyxNQUFNLDJCQUEyQixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiBHZW5lcmF0ZWQgYnVuZGxlIGluZGV4LiBEbyBub3QgZWRpdC5cbiAqL1xuXG5leHBvcnQgKiBmcm9tICcuL3B1YmxpY19hcGknO1xuXG5leHBvcnQge05neE1vYmlsZUtleWJvYXJkV2F0Y2hlciBhcyDJtWF9IGZyb20gJy4vbW9iaWxlLWtleWJvYXJkLXdhdGNoZXInOyJdfQ==
