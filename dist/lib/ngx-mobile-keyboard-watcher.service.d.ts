@@ -4,7 +4,7 @@
  * @author Leonardo Quevedo
  * @description Mobile keyboard service.
  */
-import { EventEmitter } from '@angular/core';
+import { EventEmitter } from "@angular/core";
 export declare class NgxMobileKeyboardWatcher {
     initialViewHeight: number;
     KEYBOARD_MIN_SIZE: number;

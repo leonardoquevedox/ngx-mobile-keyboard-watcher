@@ -1,9 +1,9 @@
-import { CommonModule } from '@angular/common';
 import { Injectable, EventEmitter, NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 var NgxMobileKeyboardWatcher = /** @class */ (function () {
     function NgxMobileKeyboardWatcher() {
@@ -26,7 +26,10 @@ var NgxMobileKeyboardWatcher = /** @class */ (function () {
         /** @type {?} */
         var heightDifference = 0;
         this.initialViewHeight = window.innerHeight;
-        window.addEventListener('resize', function () {
+        window.addEventListener("resize", (/**
+         * @return {?}
+         */
+        function () {
             heightDifference = Math.abs(_this.initialViewHeight - window.innerHeight);
             if (heightDifference > 0 && heightDifference > _this.KEYBOARD_MIN_SIZE) {
                 _this.shown.emit();
@@ -34,19 +37,18 @@ var NgxMobileKeyboardWatcher = /** @class */ (function () {
             else {
                 _this.hidden.emit();
             }
-        });
+        }));
     };
     NgxMobileKeyboardWatcher.decorators = [
         { type: Injectable }
     ];
-    /** @nocollapse */
     NgxMobileKeyboardWatcher.ctorParameters = function () { return []; };
     return NgxMobileKeyboardWatcher;
 }());
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 var NgxMobileKeyboardWatcherModule = /** @class */ (function () {
     function NgxMobileKeyboardWatcherModule() {
@@ -62,14 +64,14 @@ var NgxMobileKeyboardWatcherModule = /** @class */ (function () {
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
-export { NgxMobileKeyboardWatcherModule, NgxMobileKeyboardWatcher as ɵa };
+export { NgxMobileKeyboardWatcher, NgxMobileKeyboardWatcherModule };
 
 //# sourceMappingURL=ngx-mobile-keyboard-watcher.js.map

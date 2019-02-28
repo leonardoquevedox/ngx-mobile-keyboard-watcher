@@ -1,6 +1,6 @@
-# Ngx-credit-card-br
+# Ngx-mobile-keyboard-watcher
 
-> Ngx-credit-card-br is an ultra simple cnpj validator for Angular.io.
+> Ngx-mobile-keyboard-watcher is an ultra simple cnpj validator for Angular.io.
 
 [![basic-merchandising](https://imgur.com/LNOYczf.png)](https://github.com/leopq)
 
@@ -9,17 +9,17 @@
 ## Installing
 
 ```sh
-$ npm install --save ngx-credit-card-br
+$ npm install --save ngx-mobile-keyboard-watcher
 ```
 
 ## Quickstart
 
 #### Import
 
-Import **ngx-credit-card-br** module in Angular app.
+Import **ngx-mobile-keyboard-watcher** module in Angular app.
 
 ```typescript
-import { NgxCreditCardBr } from 'ngx-credit-card-br'
+import { NgxCreditCardBr } from 'ngx-mobile-keyboard-watcher'
 
 (...)
 
@@ -34,7 +34,7 @@ import { NgxCreditCardBr } from 'ngx-credit-card-br'
 
 #### Usage
 
-In your template, you can declare the ngx-credit-card-br as the following:
+In your template, you can declare the ngx-mobile-keyboard-watcher as the following:
 ```html
 <form>
     <!-- Input with the CPF validator -->

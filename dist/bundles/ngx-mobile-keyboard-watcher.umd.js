@@ -1,12 +1,12 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/common'), require('@angular/core')) :
-    typeof define === 'function' && define.amd ? define('ngx-mobile-keyboard-watcher', ['exports', '@angular/common', '@angular/core'], factory) :
-    (factory((global['ngx-mobile-keyboard-watcher'] = {}),global.ng.common,global.ng.core));
-}(this, (function (exports,common,core) { 'use strict';
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/common')) :
+    typeof define === 'function' && define.amd ? define('ngx-mobile-keyboard-watcher', ['exports', '@angular/core', '@angular/common'], factory) :
+    (factory((global['ngx-mobile-keyboard-watcher'] = {}),global.ng.core,global.ng.common));
+}(this, (function (exports,core,common) { 'use strict';
 
     /**
      * @fileoverview added by tsickle
-     * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
     var NgxMobileKeyboardWatcher = /** @class */ (function () {
         function NgxMobileKeyboardWatcher() {
@@ -29,7 +29,9 @@
                 /** @type {?} */
                 var heightDifference = 0;
                 this.initialViewHeight = window.innerHeight;
-                window.addEventListener('resize', function () {
+                window.addEventListener("resize", ( /**
+                 * @return {?}
+                 */function () {
                     heightDifference = Math.abs(_this.initialViewHeight - window.innerHeight);
                     if (heightDifference > 0 && heightDifference > _this.KEYBOARD_MIN_SIZE) {
                         _this.shown.emit();
@@ -37,19 +39,18 @@
                     else {
                         _this.hidden.emit();
                     }
-                });
+                }));
             };
         NgxMobileKeyboardWatcher.decorators = [
             { type: core.Injectable }
         ];
-        /** @nocollapse */
         NgxMobileKeyboardWatcher.ctorParameters = function () { return []; };
         return NgxMobileKeyboardWatcher;
     }());
 
     /**
      * @fileoverview added by tsickle
-     * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
     var NgxMobileKeyboardWatcherModule = /** @class */ (function () {
         function NgxMobileKeyboardWatcherModule() {
@@ -65,16 +66,16 @@
 
     /**
      * @fileoverview added by tsickle
-     * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
 
     /**
      * @fileoverview added by tsickle
-     * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
 
+    exports.NgxMobileKeyboardWatcher = NgxMobileKeyboardWatcher;
     exports.NgxMobileKeyboardWatcherModule = NgxMobileKeyboardWatcherModule;
-    exports.ɵa = NgxMobileKeyboardWatcher;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
