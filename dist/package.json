@@ -1,6 +1,6 @@
 {
   "name": "ngx-mobile-keyboard-watcher",
-  "version": "1.0.0-rc20",
+  "version": "1.0.0-rc21",
   "description": "Simple authentication state handler for Angular.io.",
   "main": "bundles/ngx-mobile-keyboard-watcher.umd.js",
   "repository": {
